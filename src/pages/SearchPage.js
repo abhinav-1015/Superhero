@@ -8,7 +8,7 @@ const SearchPage = () => {
     const [superheroData,setSuperheroData]=useState([]);
 
     const SearchSuperheros=async()=>{
-            const response=await fetch(`https://superheroapi.com/api.php/4321136474668229/search/${searchText}`);
+            const response=await fetch(`https://superheroapi.com/api.php/525864215955633/search/${searchText}`);
             const data=await response.json();
             setSuperheroData(data.results);
     } 
